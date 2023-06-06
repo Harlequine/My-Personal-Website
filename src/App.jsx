@@ -1,10 +1,10 @@
 import './App.css'
-import Main from './containers/main/Main'
+import Hero from './containers/hero/hero'
 function App() {
 
   return (
     <>
-      <Main />
+      <Hero />
     </>
   )
 }

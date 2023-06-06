@@ -2,6 +2,7 @@
   "name": "my-personal-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://harlequine.github.io/my-personal-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,3 +28,4 @@
     "vite": "^4.3.9"
   }
 }
+

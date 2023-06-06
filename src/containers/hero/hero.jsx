@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef} from 'react'
 
 import NavBar from '../../components/navbar'
 
-import './main.css'
-const main = () => {
+import './hero.css'
+const Hero = () => {
   return (
    <>
       <NavBar />
@@ -23,4 +23,4 @@ const main = () => {
   )
 }
 
-export default main
+export default Hero
