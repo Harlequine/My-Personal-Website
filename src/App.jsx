@@ -1,10 +1,10 @@
 import './App.css'
-import Main from './containers/main/Main'
+import Home from './containers/home/home'
 function App() {
 
   return (
     <>
-      <Main />
+      <Home />
     </>
   )
 }

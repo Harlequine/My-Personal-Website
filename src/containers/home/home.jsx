@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef} from 'react'
 
 import NavBar from '../../components/navbar'
 
-import './main.css'
+import './home.css'
 const main = () => {
   return (
    <>
