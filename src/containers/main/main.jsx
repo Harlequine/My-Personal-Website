@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect, useRef} from 'react'
 
+import NavBar from '../../components/navbar'
+
+import './main.css'
 const main = () => {
   return (
-    <div>main</div>
+   <>
+      <NavBar />
+      <section id='top'>
+        <div className="intro">
+          <h2>Hello! My Name is</h2>
+          <h1>Joshua Ocampo.</h1>
+          <h2>I'm a Software Engineer.  </h2>
+        </div>
+        <div className="btn-portfolio">
+          <a href="#">View Portfolio</a>
+        </div>
+      </section>
+      
+
+   </>
   )
 }
 

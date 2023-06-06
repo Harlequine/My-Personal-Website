@@ -1,0 +1,35 @@
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+    .intro{
+        
+        h1{
+            color: #46B3A5;
+            font-size: 5rem;
+        }
+        h2{
+            font-size: 3rem;
+        }
+    }
+    .btn-portfolio{
+        margin-top: 2rem;
+        a{
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            border: 3px solid black;
+            padding: 1rem;
+            border-radius: 20% / 50%
+        }
+    }
+}
+
+.btn-portfolio a:hover{
+    background-color: #46B3A5   ;
+}
