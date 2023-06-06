@@ -2,7 +2,7 @@ import React from 'react'
 
 import './navbar.css'
 
-const navbar = () => {
+const NavBar = () => {
   return (
     <div className='header'>
       <div className='logo'>
@@ -23,4 +23,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default NavBar
