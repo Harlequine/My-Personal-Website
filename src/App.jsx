@@ -1,10 +1,23 @@
+import React, { useRef } from 'react';
+
 import './App.css'
+
+import NavBar from './components/navbar'
 import Hero from './containers/hero/hero'
+import Portfolio from './containers/portfolio/portfolio'
+import About from './containers/about/about';
+
 function App() {
+  const topRef = useRef(null);
+  const portfolioRef = useRef(null);
+  const aboutRef = useRef(null);
 
   return (
     <>
-      <Hero />
+      <NavBar topRef={topRef} portfolioRef={portfolioRef} aboutRef={aboutRef}/>
+      <Hero topRef={topRef}/>
+      <Portfolio ref={portfolioRef}/>
+      <About ref={aboutRef}/>
     </>
   )
 }

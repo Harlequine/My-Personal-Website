@@ -5,4 +5,9 @@
     font-family: 'Lato', sans-serif;
     color: #333333;
     font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #333333 !important;
 }
