@@ -2,7 +2,11 @@ import React, { useRef, forwardRef } from 'react'
 
 import './hero.css'
 
-const Hero = forwardRef((props, ref) => {
+const Hero = forwardRef(({portfolioRef}, ref) => {
+  const handlePortfolioClick = () => {
+    portfolioRef.current.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest" })
+  };
+
   return (
     <section id='top' ref={ref}>
       <div className="intro">
@@ -11,7 +15,7 @@ const Hero = forwardRef((props, ref) => {
         <h2>I'm a Software Engineer.  </h2>
       </div>
       <div className="btn-portfolio">
-        <a href="#">View Portfolio</a>
+        <a href="#portfolio" onClick={() => handlePortfolioClick()}>View Portfolio</a>
       </div>
     </section>
    

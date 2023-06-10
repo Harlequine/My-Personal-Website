@@ -46,12 +46,52 @@
   font-size: 1.2rem;
 }
 #about .technologies .tech-containers {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#about .technologies .tech-containers .row {
+  display: flex;
+  gap: 1rem;
 }
 #about .technologies .tech-containers .container {
+  border: 1px solid black;
+  width: 320px;
+  height: 110px;
   display: flex;
-  flex-wrap: wrap;
-  border: 2px solid black;
+  flex-direction: column;
+  align-items: center;
+}
+#about .technologies .tech-containers .container .title {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.903);
+  border-bottom: 1px solid black;
+}
+#about .technologies .tech-containers .container .title h4 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+}
+#about .technologies .tech-containers .container .tech-icons {
+  display: flex;
+  gap: 0.5rem;
+  padding: 10px;
+}
+#about .technologies .tech-containers .container .tech-icons img {
+  width: 64px;
+  height: 64px;
+}
+#about .technologies .tech-containers .container .tech-icons .resize {
+  width: 64px;
+  height: 64px;
+}
+#about .technologies .tech-containers .container .tech-icons .resize img {
+  object-fit: contain;
 }

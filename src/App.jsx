@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <NavBar topRef={topRef} portfolioRef={portfolioRef} aboutRef={aboutRef}/>
-      <Hero topRef={topRef}/>
+      <Hero topRef={topRef} portfolioRef={portfolioRef}/>
       <Portfolio ref={portfolioRef}/>
       <About ref={aboutRef}/>
     </>
