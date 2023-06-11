@@ -12,7 +12,7 @@ const Hero = forwardRef(({portfolioRef}, ref) => {
       <div className="intro">
         <h2>Hello! My Name is</h2>
         <h1>Joshua Ocampo.</h1>
-        <h2>I'm a Software Engineer.  </h2>
+        <h2>I'm a Web Developer</h2>
       </div>
       <div className="btn-portfolio">
         <a href="#portfolio" onClick={() => handlePortfolioClick()}>View Portfolio</a>

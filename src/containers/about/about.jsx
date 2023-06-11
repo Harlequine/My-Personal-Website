@@ -1,4 +1,4 @@
-import Reac, { forwardRef } from 'react'
+import React, { forwardRef } from 'react'
 
 import Pic from '../../assets/pic.png'
 
@@ -38,7 +38,7 @@ const about = forwardRef(( props, ref ) => {
           <img src={Pic} alt="" />
         </div>
         <div className="paragraph">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi voluptatibus dolore blanditiis consequuntur voluptates quia, ad aspernatur nulla placeat. Quos quod molestiae, beatae consequuntur iure aliquam sed praesentium blanditiis!</p>
+          <p>Hi! I'm Joshua Ocampo, a graduating student from Don Honorio Venture State University (DHVSU) in 2023, with a Bachelor's degree in Computer Science. I have a deep passion for web development and aspire to become a skilled web developer. I am experienced in a range of web technologies, including HTML, CSS, JavaScript, as well as backend technologies like Node.js, MongoDB, and MySQL. With this comprehensive skill set, I am able to create visually appealing and user-friendly websites while also developing robust backend systems. Through active engagement in various projects and a collaborative mindset, I am excited to embark on a career in web development and contribute to creating meaningful online experiences.</p>
         </div>
       </div>
       <div className="technologies">
@@ -95,6 +95,7 @@ const about = forwardRef(( props, ref ) => {
           </div>
         </div>
       </div>
+
     </section>
   )
 })
