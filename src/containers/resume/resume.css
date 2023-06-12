@@ -1,0 +1,40 @@
+#resume {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+#resume h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#resume .links-resume {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#resume .links-resume .btn-links-resume a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid black;
+  padding: 0.7rem;
+  border-radius: 20%/50%;
+  gap: 0.5rem;
+}
+#resume .links-resume .btn-links-resume a .icons {
+  width: 25px;
+}
+
+.btn-links-resume a:hover {
+  background-color: #46B3A5;
+}

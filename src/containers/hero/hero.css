@@ -29,3 +29,25 @@
 .btn-portfolio a:hover {
   background-color: #46B3A5;
 }
+
+@media only screen and (max-width: 600px) {
+  .intro h1 {
+    color: #46B3A5;
+    font-size: 2.9rem !important;
+  }
+  .intro h2 {
+    font-size: 1.6rem !important;
+  }
+  .btn-portfolio {
+    margin-top: 1rem;
+  }
+  .btn-portfolio a {
+    text-decoration: none;
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.8rem !important;
+    border-radius: 20%/50%;
+  }
+}

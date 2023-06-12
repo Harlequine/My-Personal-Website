@@ -84,7 +84,7 @@ const portfolio = forwardRef((porps, ref) => {
                     <a href="https://scien-t.onrender.com/" target="_blank">Try Demo <LinkIcon className='icons'/></a>
                 </div>
                 <div className='btn-external-links'>
-                    <a href="">View Code <CodeBracketIcon className='icons'/></a>
+                    <a href="https://github.com/gnahhr/Scien-T" target="_blank">View Code <CodeBracketIcon className='icons'/></a>
                 </div>
                 
             </div>
@@ -111,7 +111,7 @@ const portfolio = forwardRef((porps, ref) => {
             </div>
             <div className="external-links">
                 <div className='btn-external-links'>
-                    <a href="">View Code <CodeBracketIcon className='icons'/></a>
+                    <a href="https://github.com/gnahhr/websys-php-finals" target="_blank">View Code <CodeBracketIcon className='icons'/></a>
                 </div>
                 
             </div>

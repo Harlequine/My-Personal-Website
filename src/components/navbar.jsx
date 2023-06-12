@@ -2,7 +2,7 @@ import React from 'react'
 
 import './navbar.css'
 
-const NavBar = ({topRef, portfolioRef, aboutRef}) => {
+const NavBar = ({topRef, portfolioRef, aboutRef, resumeRef, contactRef}) => {
   const handleTopClick = () => {
     topRef.current.scrollIntoView({behavior: "smooth", block: "start"})
   };
@@ -13,6 +13,14 @@ const NavBar = ({topRef, portfolioRef, aboutRef}) => {
 
   const handleAboutClick = () => {
     aboutRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+  };
+
+  const handleResumeClick = () => {
+    resumeRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+  };
+
+  const handleContactClick = () => {
+    contactRef.current.scrollIntoView({behavior: "smooth", block: "start"})
   };
 
   return (
@@ -26,8 +34,8 @@ const NavBar = ({topRef, portfolioRef, aboutRef}) => {
         <ul className="menu"> 
           <li><a href="#portfolio" onClick={() => handlePortfolioClick()}>PORTFOLIO</a></li>
           <li><a href="#about" onClick={() => handleAboutClick()}>ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="https://drive.google.com/file/d/1Cg0F1EgQ_lRjIr-MkIwWtuYQBo3MwRsM/view?usp=sharing" target='_blank'>RESUME</a></li>
+          <li><a href="#resume" onClick={() => handleResumeClick()}>RESUME</a></li>
+          <li><a href="#contact" onClick={() => handleContactClick()}>CONTACT</a></li>
           <li><a href="https://github.com/Harlequine" target='_blank'>GITHUB</a></li>
           <li><a href="https://www.linkedin.com/in/joshua-kyle-ocampo-531b56207" target='_blank'>LINKEDIN</a></li>
         </ul>

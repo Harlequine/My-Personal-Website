@@ -96,3 +96,18 @@
 #about .technologies .tech-containers .container .tech-icons .resize img {
   object-fit: contain;
 }
+
+@media only screen and (max-width: 1010px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .technologies .tech-containers .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}

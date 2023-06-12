@@ -1,0 +1,47 @@
+#contact{
+    margin-top: 150px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    .left-side{
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .rights{
+            font-size: 0.7rem;
+        }
+    }
+
+    .right-side{
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .left-side{
+        h1{
+            font-size: 1rem !important;
+            font-weight: bold;
+        }
+        .rights{
+            font-size: 0.3rem;
+        }
+    }
+
+    .right-side{
+        h1{
+            font-size: 1rem !important;
+            font-weight: bold;
+        }
+        p{
+            font-size: 0.5rem;
+        }
+    }
+}
