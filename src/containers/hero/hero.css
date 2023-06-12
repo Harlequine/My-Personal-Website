@@ -33,7 +33,7 @@
 @media only screen and (max-width: 600px) {
   .intro h1 {
     color: #46B3A5;
-    font-size: 2.9rem !important;
+    font-size: 2rem !important;
   }
   .intro h2 {
     font-size: 1.6rem !important;
