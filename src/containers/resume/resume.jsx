@@ -9,10 +9,10 @@ const resume = forwardRef((props, ref) => {
         <h1>Resume</h1>
         <div className="links-resume">
                 <div className='btn-links-resume'>
-                    <a href="../../assets/resume/JoshuaOcampo-Resume.pdf" target="_blank">View Resume <DocumentMagnifyingGlassIcon className='icons'/></a>
+                    <a href="https://drive.google.com/file/d/1Cg0F1EgQ_lRjIr-MkIwWtuYQBo3MwRsM/view?usp=sharing" target="_blank">View Resume <DocumentMagnifyingGlassIcon className='icons'/></a>
                 </div>
                 <div className='btn-links-resume'>
-                    <a href="https://drive.google.com/file/d/1Cg0F1EgQ_lRjIr-MkIwWtuYQBo3MwRsM/view?usp=sharing" target="_blank">Download Resume <ArrowDownTrayIcon className='icons'/></a>
+                    <a href="https://drive.google.com/u/1/uc?id=1Cg0F1EgQ_lRjIr-MkIwWtuYQBo3MwRsM&export=download" target="_blank">Download Resume <ArrowDownTrayIcon className='icons'/></a>
                 </div>
                 
         </div>
