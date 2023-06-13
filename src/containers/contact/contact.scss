@@ -3,10 +3,11 @@
     margin-bottom: 20px;
     bottom: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 5rem;
     .left-side{
-        ma
         h1{
             font-size: 1.5rem;
             font-weight: bold;
@@ -26,6 +27,8 @@
 }
 
 @media only screen and (max-width: 600px) {
+#contact{
+    gap: 0rem !important;
     .left-side{
         margin-left: 1rem;
         margin-right: auto;
