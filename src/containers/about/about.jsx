@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 
-import Pic from '../../assets/pic.png'
+import Pic from '../../assets/joshua.png'
 
 //frontend
 import html from '../../assets/tech/htmllogo.png'
@@ -35,7 +35,7 @@ const about = forwardRef(( props, ref ) => {
       <h1>About Me</h1>
       <div className="details">
         <div className="image-container">
-          <img src={Pic} alt="" />
+          <img className="profile-photo" src={Pic} alt="" />
         </div>
         <div className="paragraph">
           <p>Hi! I'm Joshua Ocampo, a fresh graduate with a Bachelor's degree in Computer Science. I have a deep passion for web development and aspire to become a skilled web developer. I am experienced in a range of web technologies, including <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, as well as backend technologies like <span>Node.js</span>, <span>MongoDB</span>, and <span>MySQL</span>. With this comprehensive skill set, I am able to create visually appealing and user-friendly websites while also developing robust backend systems. Through active engagement in various projects and a collaborative mindset, I am excited to embark on a career in web development and contribute to creating meaningful online experiences.</p>
