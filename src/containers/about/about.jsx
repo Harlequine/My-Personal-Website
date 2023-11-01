@@ -38,7 +38,7 @@ const about = forwardRef(( props, ref ) => {
           <img src={Pic} alt="" />
         </div>
         <div className="paragraph">
-          <p>Hi! I'm Joshua Ocampo, a graduating student from Don Honorio Venture State University (DHVSU) in 2023, with a Bachelor's degree in Computer Science. I have a deep passion for web development and aspire to become a skilled web developer. I am experienced in a range of web technologies, including HTML, CSS, JavaScript, as well as backend technologies like Node.js, MongoDB, and MySQL. With this comprehensive skill set, I am able to create visually appealing and user-friendly websites while also developing robust backend systems. Through active engagement in various projects and a collaborative mindset, I am excited to embark on a career in web development and contribute to creating meaningful online experiences.</p>
+          <p>Hi! I'm Joshua Ocampo, a fresh graduate with a Bachelor's degree in Computer Science. I have a deep passion for web development and aspire to become a skilled web developer. I am experienced in a range of web technologies, including <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, as well as backend technologies like <span>Node.js</span>, <span>MongoDB</span>, and <span>MySQL</span>. With this comprehensive skill set, I am able to create visually appealing and user-friendly websites while also developing robust backend systems. Through active engagement in various projects and a collaborative mindset, I am excited to embark on a career in web development and contribute to creating meaningful online experiences.</p>
         </div>
       </div>
       <div className="technologies">

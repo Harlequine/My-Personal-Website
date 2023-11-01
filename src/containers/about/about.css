@@ -36,6 +36,9 @@
   padding: 1rem;
   text-align: justify;
 }
+#about .details .paragraph span {
+  font-weight: 700;
+}
 #about .technologies {
   display: flex;
   flex-direction: column;
